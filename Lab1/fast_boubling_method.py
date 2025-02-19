@@ -27,7 +27,7 @@ def fibonacci_fast_doubling_sequence(n): # generate the Fibonacci sequence up to
 n_plot = 20
 fib_sequence = fibonacci_fast_doubling_sequence(n_plot)
 
-n_values = list(range(10, 510, 50))
+n_values = list(range(10, 710, 20))
 times = []
 for n_val in n_values:
     start = time.perf_counter()

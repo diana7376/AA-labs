@@ -26,7 +26,7 @@ n_plot = 20
 fib_sequence = fibonacci_iterative(n_plot)
 
 # measure the execution time for n = 10, 60, 110, ..., 510
-n_values = list(range(10, 510, 50))
+n_values = list(range(10, 710, 20))
 times = []
 
 for n_val in n_values:

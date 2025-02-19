@@ -26,7 +26,7 @@ def fibonacci_tail_recursive_sequence(n): # generate the Fibonacci sequence up t
 n_plot = 20
 fib_sequence = fibonacci_tail_recursive_sequence(n_plot)
 
-n_values = list(range(10, 510, 50))  # measure the execution time to illustrate the time complexity
+n_values = list(range(10, 710, 20))  # measure the execution time to illustrate the time complexity
 times = []
 
 for n_val in n_values:
