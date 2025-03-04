@@ -123,9 +123,9 @@ def conclusions(times):
 
 
 def main():
-    run_test_cases()  # Task 1 & 2: Basic testing with defined input cases
-    times = empirical_analysis()  # Tasks 3 & 4: Measure execution times
-    conclusions(times)  # Task 6: Print conclusions
+    run_test_cases()
+    times = empirical_analysis()
+    conclusions(times)
 
 
 if __name__ == "__main__":
